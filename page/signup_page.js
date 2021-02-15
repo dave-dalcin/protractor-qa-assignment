@@ -82,9 +82,5 @@ var signup_page = function(){
 	{		        
         expect(element(by.xpath(locEmailAlreadyTakenMessage)).isPresent()).toBe(true, "Email already taken message is not displayed!");
 	};
-
-
-
-    
 };
 module.exports = new signup_page();
